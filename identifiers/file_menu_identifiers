@@ -1,0 +1,5 @@
+Control Identifiers:
+
+MenuItem - 'File'    (L115, T137, R148, B157)
+['File', 'MenuItem', 'FileMenuItem']
+child_window(title="File", control_type="MenuItem")

@@ -1,0 +1,517 @@
+Control Identifiers:
+
+Dialog - 'New Project - Altova DatabaseSpy'    (L104, T104, R1544, B953)
+['New Project - Altova DatabaseSpy', 'Dialog', 'New Project - Altova DatabaseSpyDialog']
+child_window(title="New Project - Altova DatabaseSpy", control_type="Window")
+   | 
+   | Menu - 'New'    (L424, T186, R691, B267)
+   | ['NewMenu', 'New', 'Menu', 'Menu0', 'Menu1']
+   | child_window(title="New", control_type="Menu")
+   |    | 
+   |    | Toolbar - ''    (L425, T187, R687, B263)
+   |    | ['Toolbar', 'ToolbarDesign Editor\tStrg+D', 'ToolbarSQL Editor\tStrg+N', 'Toolbar0', 'Toolbar1']
+   |    | child_window(auto_id="1", control_type="ToolBar")
+   |    |    | 
+   |    |    | MenuItem - 'New Project	Strg+Umschalt+N'    (L425, T188, R687, B210)
+   |    |    | ['New Project\tStrg+Umschalt+N', 'New Project\tStrg+Umschalt+NMenuItem', 'MenuItem', 'MenuItem0', 'MenuItem1', 'New Project\tStrg+Umschalt+N0', 'New Project\tStrg+Umschalt+N1', 'New Project\tStrg+Umschalt+NMenuItem0', 'New Project\tStrg+Umschalt+NMenuItem1']
+   |    |    | child_window(title="New Project	Strg+Umschalt+N", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'SQL Editor	Strg+N'    (L425, T218, R687, B240)
+   |    |    | ['SQL Editor\tStrg+N', 'SQL Editor\tStrg+NMenuItem', 'MenuItem2', 'SQL Editor\tStrg+N0', 'SQL Editor\tStrg+N1', 'SQL Editor\tStrg+NMenuItem0', 'SQL Editor\tStrg+NMenuItem1']
+   |    |    | child_window(title="SQL Editor	Strg+N", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Design Editor	Strg+D'    (L425, T240, R687, B262)
+   |    |    | ['MenuItem3', 'Design Editor\tStrg+DMenuItem', 'Design Editor\tStrg+D', 'Design Editor\tStrg+DMenuItem0', 'Design Editor\tStrg+DMenuItem1', 'Design Editor\tStrg+D0', 'Design Editor\tStrg+D1']
+   |    |    | child_window(title="Design Editor	Strg+D", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'New Project	Strg+Umschalt+N'    (L0, T0, R0, B0)
+   |    | ['New Project\tStrg+Umschalt+N2', 'New Project\tStrg+Umschalt+NMenuItem2', 'MenuItem4']
+   |    | child_window(title="New Project	Strg+Umschalt+N", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'SQL Editor	Strg+N'    (L0, T0, R0, B0)
+   |    | ['SQL Editor\tStrg+N2', 'SQL Editor\tStrg+NMenuItem2', 'MenuItem5']
+   |    | child_window(title="SQL Editor	Strg+N", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Design Editor	Strg+D'    (L0, T0, R0, B0)
+   |    | ['MenuItem6', 'Design Editor\tStrg+DMenuItem2', 'Design Editor\tStrg+D2']
+   |    | child_window(title="Design Editor	Strg+D", control_type="MenuItem")
+   | 
+   | Menu - 'File'    (L115, T156, R428, B423)
+   | ['File', 'FileMenu', 'Menu2']
+   | child_window(title="File", control_type="Menu")
+   |    | 
+   |    | Toolbar - ''    (L116, T157, R424, B419)
+   |    | ['ToolbarSave As...', 'Toolbar2', 'ToolbarSave\tStrg+S', 'ToolbarRecent Files', 'ToolbarOpen', 'ToolbarSave All\tStrg+Umschalt+S', 'ToolbarRecent Projects', 'ToolbarExit', 'ToolbarSave Project As...']
+   |    | child_window(auto_id="1", control_type="ToolBar")
+   |    |    | 
+   |    |    | MenuItem - 'Create a Database Connection...	Strg+Q'    (L116, T158, R424, B180)
+   |    |    | ['Create a Database Connection...\tStrg+Q', 'MenuItem7', 'Create a Database Connection...\tStrg+QMenuItem', 'Create a Database Connection...\tStrg+Q0', 'Create a Database Connection...\tStrg+Q1', 'Create a Database Connection...\tStrg+QMenuItem0', 'Create a Database Connection...\tStrg+QMenuItem1']
+   |    |    | child_window(title="Create a Database Connection...	Strg+Q", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Open'    (L116, T210, R424, B232)
+   |    |    | ['Open', 'MenuItem8', 'OpenMenuItem', 'Open0', 'Open1', 'OpenMenuItem0', 'OpenMenuItem1']
+   |    |    | child_window(title="Open", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Save	Strg+S'    (L116, T240, R424, B262)
+   |    |    | ['Save\tStrg+SMenuItem', 'MenuItem9', 'Save\tStrg+S', 'Save\tStrg+SMenuItem0', 'Save\tStrg+SMenuItem1', 'Save\tStrg+S0', 'Save\tStrg+S1']
+   |    |    | child_window(title="Save	Strg+S", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Save As...'    (L116, T262, R424, B284)
+   |    |    | ['Save As...MenuItem', 'MenuItem10', 'Save As...', 'Save As...MenuItem0', 'Save As...MenuItem1', 'Save As...0', 'Save As...1']
+   |    |    | child_window(title="Save As...", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Save Project As...'    (L116, T284, R424, B306)
+   |    |    | ['Save Project As...MenuItem', 'Save Project As...', 'MenuItem11', 'Save Project As...MenuItem0', 'Save Project As...MenuItem1', 'Save Project As...0', 'Save Project As...1']
+   |    |    | child_window(title="Save Project As...", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Save All	Strg+Umschalt+S'    (L116, T314, R424, B336)
+   |    |    | ['MenuItem12', 'Save All\tStrg+Umschalt+S', 'Save All\tStrg+Umschalt+SMenuItem', 'Save All\tStrg+Umschalt+S0', 'Save All\tStrg+Umschalt+S1', 'Save All\tStrg+Umschalt+SMenuItem0', 'Save All\tStrg+Umschalt+SMenuItem1']
+   |    |    | child_window(title="Save All	Strg+Umschalt+S", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Recent Files'    (L116, T344, R424, B366)
+   |    |    | ['Recent FilesMenuItem', 'MenuItem13', 'Recent Files', 'Recent FilesMenuItem0', 'Recent FilesMenuItem1', 'Recent Files0', 'Recent Files1']
+   |    |    | child_window(title="Recent Files", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Recent Projects'    (L116, T366, R424, B388)
+   |    |    | ['Recent Projects', 'MenuItem14', 'Recent ProjectsMenuItem', 'Recent Projects0', 'Recent Projects1', 'Recent ProjectsMenuItem0', 'Recent ProjectsMenuItem1']
+   |    |    | child_window(title="Recent Projects", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Exit'    (L116, T396, R424, B418)
+   |    |    | ['ExitMenuItem', 'MenuItem15', 'Exit', 'ExitMenuItem0', 'ExitMenuItem1', 'Exit0', 'Exit1']
+   |    |    | child_window(title="Exit", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Create a Database Connection...	Strg+Q'    (L0, T0, R0, B0)
+   |    | ['Create a Database Connection...\tStrg+Q2', 'MenuItem16', 'Create a Database Connection...\tStrg+QMenuItem2']
+   |    | child_window(title="Create a Database Connection...	Strg+Q", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Open'    (L0, T0, R0, B0)
+   |    | ['Open2', 'MenuItem17', 'OpenMenuItem2']
+   |    | child_window(title="Open", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save	Strg+S'    (L0, T0, R0, B0)
+   |    | ['Save\tStrg+SMenuItem2', 'MenuItem18', 'Save\tStrg+S2']
+   |    | child_window(title="Save	Strg+S", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save As...'    (L0, T0, R0, B0)
+   |    | ['Save As...MenuItem2', 'MenuItem19', 'Save As...2']
+   |    | child_window(title="Save As...", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save Project As...'    (L0, T0, R0, B0)
+   |    | ['Save Project As...MenuItem2', 'Save Project As...2', 'MenuItem20']
+   |    | child_window(title="Save Project As...", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save All	Strg+Umschalt+S'    (L0, T0, R0, B0)
+   |    | ['MenuItem21', 'Save All\tStrg+Umschalt+S2', 'Save All\tStrg+Umschalt+SMenuItem2']
+   |    | child_window(title="Save All	Strg+Umschalt+S", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Recent Files'    (L0, T0, R0, B0)
+   |    | ['Recent FilesMenuItem2', 'MenuItem22', 'Recent Files2']
+   |    | child_window(title="Recent Files", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Recent Projects'    (L0, T0, R0, B0)
+   |    | ['Recent Projects2', 'MenuItem23', 'Recent ProjectsMenuItem2']
+   |    | child_window(title="Recent Projects", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Exit'    (L0, T0, R0, B0)
+   |    | ['ExitMenuItem2', 'MenuItem24', 'Exit2']
+   |    | child_window(title="Exit", control_type="MenuItem")
+   | 
+   | Pane - ''    (L416, T770, R1536, B774)
+   | ['Pane', 'Pane0', 'Pane1']
+   | 
+   | Pane - 'Output'    (L416, T774, R1536, B924)
+   | ['Pane2', 'OutputPane', 'Output', 'OutputPane0', 'OutputPane1', 'Output0', 'Output1']
+   | child_window(title="Output", control_type="Pane")
+   |    | 
+   |    | TabControl - ''    (L416, T799, R1536, B924)
+   |    | ['TabControlOutput', 'TabControl', 'TabControl0', 'TabControl1']
+   |    | child_window(auto_id="101", control_type="Tab")
+   |    |    | 
+   |    |    | Pane - 'Output'    (L416, T799, R1536, B924)
+   |    |    | ['Pane3', 'OutputPane2', 'Output2']
+   |    |    | child_window(title="Output", auto_id="32804", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'Output Window'    (L416, T799, R1536, B924)
+   |    |    |    | ['Output WindowPane', 'Pane4', 'Output Window']
+   |    |    |    | child_window(title="Output Window", auto_id="1", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'CaptionBar'    (L416, T799, R1536, B825)
+   |    |    |    |    | ['Pane5', 'CaptionBarPane', 'CaptionBar']
+   |    |    |    |    | child_window(title="CaptionBar", auto_id="65535", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L421, T801, R443, B823)
+   |    |    |    |    |    | ['Button', 'Button0', 'Button1']
+   |    |    |    |    |    | child_window(auto_id="1", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L477, T801, R499, B823)
+   |    |    |    |    |    | ['Button2']
+   |    |    |    |    |    | child_window(auto_id="2", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L453, T801, R475, B823)
+   |    |    |    |    |    | ['Button3']
+   |    |    |    |    |    | child_window(auto_id="3", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L509, T801, R531, B823)
+   |    |    |    |    |    | ['Button4']
+   |    |    |    |    |    | child_window(auto_id="4", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L533, T801, R555, B823)
+   |    |    |    |    |    | ['Button5']
+   |    |    |    |    |    | child_window(auto_id="5", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L557, T801, R579, B823)
+   |    |    |    |    |    | ['Button6']
+   |    |    |    |    |    | child_window(auto_id="6", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L589, T801, R611, B823)
+   |    |    |    |    |    | ['Button7']
+   |    |    |    |    |    | child_window(auto_id="7", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L613, T801, R635, B823)
+   |    |    |    |    |    | ['Button8']
+   |    |    |    |    |    | child_window(auto_id="8", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L637, T801, R659, B823)
+   |    |    |    |    |    | ['Button9']
+   |    |    |    |    |    | child_window(auto_id="9", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L669, T801, R691, B823)
+   |    |    |    |    |    | ['Button10']
+   |    |    |    |    |    | child_window(auto_id="10", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L416, T825, R1536, B924)
+   |    |    |    |    | ['Pane6']
+   |    |    |    |    | child_window(auto_id="1", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L1519, T825, R1536, B924)
+   |    |    |    |    |    | ['Pane7']
+   |    |    |    |    |    | child_window(auto_id="65535", control_type="Pane")
+   |    |    | 
+   |    |    | TabItem - 'Output'    (L418, T899, R486, B922)
+   |    |    | ['OutputTabItem', 'TabItem', 'Output3', 'TabItem0', 'TabItem1']
+   |    |    | child_window(title="Output", control_type="TabItem")
+   | 
+   | Pane - ''    (L412, T185, R416, B924)
+   | ['Pane8']
+   | 
+   | Pane - 'Properties'    (L112, T644, R412, B924)
+   | ['Pane9', 'Properties', 'PropertiesPane', 'Properties0', 'Properties1', 'PropertiesPane0', 'PropertiesPane1']
+   | child_window(title="Properties", control_type="Pane")
+   |    | 
+   |    | TabControl - ''    (L112, T669, R412, B924)
+   |    | ['TabControl2', 'TabControlProperties']
+   |    | child_window(auto_id="101", control_type="Tab")
+   |    |    | 
+   |    |    | Pane - 'Properties'    (L112, T669, R412, B924)
+   |    |    | ['Pane10', 'Properties2', 'PropertiesPane2']
+   |    |    | child_window(title="Properties", auto_id="32857", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'Properties'    (L112, T669, R412, B924)
+   |    |    |    | ['Pane11', 'Properties3', 'PropertiesPane3']
+   |    |    |    | child_window(title="Properties", auto_id="4", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L112, T669, R412, B924)
+   |    |    |    |    | ['Pane12']
+   |    |    |    |    | child_window(auto_id="65535", control_type="Pane")
+   |    |    | 
+   |    |    | TabItem - 'Properties'    (L114, T899, R200, B922)
+   |    |    | ['PropertiesTabItem', 'TabItem2', 'Properties4']
+   |    |    | child_window(title="Properties", control_type="TabItem")
+   | 
+   | Pane - 'Project'    (L112, T185, R412, B640)
+   | ['Pane13', 'ProjectPane', 'Project', 'ProjectPane0', 'ProjectPane1', 'Project0', 'Project1']
+   | child_window(title="Project", control_type="Pane")
+   |    | 
+   |    | TabControl - ''    (L112, T210, R412, B640)
+   |    | ['TabControl3', 'TabControlProject', 'TabControlOnline Browser']
+   |    | child_window(auto_id="101", control_type="Tab")
+   |    |    | 
+   |    |    | Pane - 'Project'    (L116, T214, R408, B612)
+   |    |    | ['Pane14', 'ProjectPane2', 'Project2']
+   |    |    | child_window(title="Project", auto_id="32869", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'Project Window'    (L117, T215, R407, B611)
+   |    |    |    | ['Project Window', 'Pane15', 'Project WindowPane']
+   |    |    |    | child_window(title="Project Window", auto_id="3214", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L117, T239, R407, B611)
+   |    |    |    |    | ['Pane16']
+   |    |    |    |    | child_window(auto_id="65535", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L117, T215, R407, B239)
+   |    |    |    |    | ['Pane17']
+   |    |    |    |    | child_window(auto_id="36533", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Create a new project'    (L119, T216, R141, B238)
+   |    |    |    |    |    | ['Button11', 'Create a new project', 'Create a new projectButton']
+   |    |    |    |    |    | child_window(title="Create a new project", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Open a project'    (L149, T216, R171, B238)
+   |    |    |    |    |    | ['Open a project', 'Button12', 'Open a projectButton']
+   |    |    |    |    |    | child_window(title="Open a project", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Save Project'    (L171, T216, R193, B238)
+   |    |    |    |    |    | ['Button13', 'Save ProjectButton', 'Save Project']
+   |    |    |    |    |    | child_window(title="Save Project", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Add files to the Project'    (L201, T216, R223, B238)
+   |    |    |    |    |    | ['Button14', 'Add files to the ProjectButton', 'Add files to the Project']
+   |    |    |    |    |    | child_window(title="Add files to the Project", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Add the Active file'    (L223, T216, R245, B238)
+   |    |    |    |    |    | ['Button15', 'Add the Active file', 'Add the Active fileButton']
+   |    |    |    |    |    | child_window(title="Add the Active file", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Find a project item by name or wildcard'    (L253, T216, R275, B238)
+   |    |    |    |    |    | ['Find a project item by name or wildcardButton', 'Find a project item by name or wildcard', 'Button16']
+   |    |    |    |    |    | child_window(title="Find a project item by name or wildcard", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Find the next occurrence of the specified text'    (L275, T216, R297, B238)
+   |    |    |    |    |    | ['Button17', 'Find the next occurrence of the specified textButton', 'Find the next occurrence of the specified text']
+   |    |    |    |    |    | child_window(title="Find the next occurrence of the specified text", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Find the previous occurrence of the specified text'    (L297, T216, R319, B238)
+   |    |    |    |    |    | ['Find the previous occurrence of the specified textButton', 'Find the previous occurrence of the specified text', 'Button18']
+   |    |    |    |    |    | child_window(title="Find the previous occurrence of the specified text", control_type="Button")
+   |    |    | 
+   |    |    | TabItem - 'Project'    (L114, T615, R182, B638)
+   |    |    | ['ProjectTabItem', 'TabItem3', 'Project3']
+   |    |    | child_window(title="Project", control_type="TabItem")
+   |    |    | 
+   |    |    | TabItem - 'Online Browser'    (L183, T615, R297, B638)
+   |    |    | ['Online Browser', 'TabItem4', 'Online BrowserTabItem']
+   |    |    | child_window(title="Online Browser", control_type="TabItem")
+   | 
+   | Pane - 'Workspace'    (L416, T185, R1536, B770)
+   | ['Workspace', 'Pane18', 'WorkspacePane']
+   | child_window(title="Workspace", auto_id="59648", control_type="Pane")
+   | 
+   | TabControl - ''    (L416, T185, R1536, B770)
+   | ['TabControl4']
+   | 
+   | Pane - ''    (L112, T135, R1536, B185)
+   | ['Pane19']
+   | child_window(auto_id="59419", control_type="Pane")
+   |    | 
+   |    | Pane - 'SQL Script'    (L1012, T159, R1145, B185)
+   |    | ['SQL Script', 'Pane20', 'SQL ScriptPane']
+   |    | child_window(title="SQL Script", auto_id="19109", control_type="Pane")
+   |    |    | 
+   |    |    | Button - 'Comment/Uncomment selected block'    (L1022, T161, R1044, B183)
+   |    |    | ['Comment/Uncomment selected blockButton', 'Button19', 'Comment/Uncomment selected block']
+   |    |    | child_window(title="Comment/Uncomment selected block", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Comment/Uncomment selected lines'    (L1044, T161, R1066, B183)
+   |    |    | ['Comment/Uncomment selected lines', 'Button20', 'Comment/Uncomment selected linesButton']
+   |    |    | child_window(title="Comment/Uncomment selected lines", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Add Region'    (L1066, T161, R1088, B183)
+   |    |    | ['Button21', 'Add Region', 'Add RegionButton']
+   |    |    | child_window(title="Add Region", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Define Target Name (single)'    (L1088, T161, R1110, B183)
+   |    |    | ['Define Target Name (single)Button', 'Button22', 'Define Target Name (single)']
+   |    |    | child_window(title="Define Target Name (single)", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Set Abort on Error property'    (L1110, T161, R1132, B183)
+   |    |    | ['Button23', 'Set Abort on Error propertyButton', 'Set Abort on Error property']
+   |    |    | child_window(title="Set Abort on Error property", control_type="Button")
+   |    |    | 
+   |    |    | MenuItem - 'Customize...'    (L1132, T161, R1142, B183)
+   |    |    | ['MenuItem25', 'Customize...MenuItem', 'Customize...', 'Customize...MenuItem0', 'Customize...MenuItem1', 'Customize...0', 'Customize...1']
+   |    |    | child_window(title="Customize...", control_type="MenuItem")
+   |    | 
+   |    | Pane - 'SQL Editor'    (L841, T159, R1012, B185)
+   |    | ['SQL EditorPane', 'SQL Editor', 'Pane21', 'SQL Editor0', 'SQL Editor1']
+   |    | child_window(title="SQL Editor", auto_id="19105", control_type="Pane")
+   |    |    | 
+   |    |    | Button - 'Word wrap'    (L851, T161, R873, B183)
+   |    |    | ['Word wrapButton', 'Word wrap', 'Button24']
+   |    |    | child_window(title="Word wrap", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Insert-Remove Bookmark'    (L881, T161, R903, B183)
+   |    |    | ['Insert-Remove Bookmark', 'Button25', 'Insert-Remove BookmarkButton']
+   |    |    | child_window(title="Insert-Remove Bookmark", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Next Bookmark'    (L903, T161, R925, B183)
+   |    |    | ['Next BookmarkButton', 'Button26', 'Next Bookmark']
+   |    |    | child_window(title="Next Bookmark", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Previous Bookmark'    (L925, T161, R947, B183)
+   |    |    | ['Button27', 'Previous Bookmark', 'Previous BookmarkButton']
+   |    |    | child_window(title="Previous Bookmark", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Remove All Bookmarks'    (L947, T161, R969, B183)
+   |    |    | ['Button28', 'Remove All Bookmarks', 'Remove All BookmarksButton']
+   |    |    | child_window(title="Remove All Bookmarks", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Toggle All Folds'    (L977, T161, R999, B183)
+   |    |    | ['Toggle All Folds', 'Button29', 'Toggle All FoldsButton']
+   |    |    | child_window(title="Toggle All Folds", control_type="Button")
+   |    |    | 
+   |    |    | MenuItem - 'Customize...'    (L999, T161, R1009, B183)
+   |    |    | ['MenuItem26', 'Customize...MenuItem2', 'Customize...2']
+   |    |    | child_window(title="Customize...", control_type="MenuItem")
+   |    | 
+   |    | Pane - 'Tools'    (L648, T159, R841, B185)
+   |    | ['ToolsPane', 'Pane22', 'Tools', 'Tools0', 'Tools1']
+   |    | child_window(title="Tools", auto_id="155", control_type="Pane")
+   |    |    | 
+   |    |    | Button - 'Generate Change Script'    (L658, T161, R680, B183)
+   |    |    | ['Button30', 'Generate Change ScriptButton', 'Generate Change Script']
+   |    |    | child_window(title="Generate Change Script", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'XML Schema Management'    (L680, T161, R702, B183)
+   |    |    | ['XML Schema ManagementButton', 'Button31', 'XML Schema Management']
+   |    |    | child_window(title="XML Schema Management", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Export'    (L710, T161, R732, B183)
+   |    |    | ['Button32', 'Export', 'ExportButton']
+   |    |    | child_window(title="Export", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Import'    (L732, T161, R754, B183)
+   |    |    | ['Button33', 'ImportButton', 'Import']
+   |    |    | child_window(title="Import", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Explain AI-Assistant'    (L762, T161, R784, B183)
+   |    |    | ['Button34', 'Explain AI-Assistant', 'Explain AI-AssistantButton']
+   |    |    | child_window(title="Explain AI-Assistant", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Show or hide the AI-Chat Window'    (L784, T161, R806, B183)
+   |    |    | ['Button35', 'Show or hide the AI-Chat Window', 'Show or hide the AI-Chat WindowButton']
+   |    |    | child_window(title="Show or hide the AI-Chat Window", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Entry Helper Mode (SQL Grammar, AI-based)'    (L806, T161, R828, B183)
+   |    |    | ['Entry Helper Mode (SQL Grammar, AI-based)', 'Button36', 'Entry Helper Mode (SQL Grammar, AI-based)Button']
+   |    |    | child_window(title="Entry Helper Mode (SQL Grammar, AI-based)", control_type="Button")
+   |    |    | 
+   |    |    | MenuItem - 'Customize...'    (L828, T161, R838, B183)
+   |    |    | ['MenuItem27', 'Customize...MenuItem3', 'Customize...3']
+   |    |    | child_window(title="Customize...", control_type="MenuItem")
+   |    | 
+   |    | Pane - 'Global Resources'    (L453, T159, R648, B185)
+   |    | ['Global Resources', 'Pane23', 'Global ResourcesPane']
+   |    | child_window(title="Global Resources", auto_id="37406", control_type="Pane")
+   |    |    | 
+   |    |    | Custom - 'Select active Global Resource configuration'    (L463, T161, R613, B184)
+   |    |    | ['Custom', 'Select active Global Resource configuration', 'Select active Global Resource configurationCustom']
+   |    |    | child_window(title="Select active Global Resource configuration", control_type="Custom")
+   |    |    | 
+   |    |    | Button - 'Manage Global Resources'    (L613, T161, R635, B183)
+   |    |    | ['Manage Global ResourcesButton', 'Button37', 'Manage Global Resources']
+   |    |    | child_window(title="Manage Global Resources", control_type="Button")
+   |    |    | 
+   |    |    | MenuItem - 'Customize...'    (L635, T161, R645, B183)
+   |    |    | ['MenuItem28', 'Customize...MenuItem4', 'Customize...4']
+   |    |    | child_window(title="Customize...", control_type="MenuItem")
+   |    | 
+   |    | Pane - 'Standard'    (L112, T159, R453, B185)
+   |    | ['StandardPane', 'Pane24', 'Standard']
+   |    | child_window(title="Standard", auto_id="156", control_type="Pane")
+   |    |    | 
+   |    |    | Button - 'Connect to a database'    (L122, T161, R144, B183)
+   |    |    | ['Button38', 'Connect to a databaseButton', 'Connect to a database']
+   |    |    | child_window(title="Connect to a database", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'SQL Editor'    (L152, T161, R174, B183)
+   |    |    | ['SQL EditorButton', 'Button39', 'SQL Editor2']
+   |    |    | child_window(title="SQL Editor", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Design Editor'    (L174, T161, R196, B183)
+   |    |    | ['Design Editor', 'Button40', 'Design EditorButton']
+   |    |    | child_window(title="Design Editor", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Open'    (L204, T161, R226, B183)
+   |    |    | ['Button41', 'OpenButton', 'Open3']
+   |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Reload'    (L226, T161, R248, B183)
+   |    |    | ['ReloadButton', 'Button42', 'Reload']
+   |    |    | child_window(title="Reload", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Save'    (L256, T161, R278, B183)
+   |    |    | ['Button43', 'Save', 'SaveButton']
+   |    |    | child_window(title="Save", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Save All'    (L278, T161, R300, B183)
+   |    |    | ['Button44', 'Save All', 'Save AllButton']
+   |    |    | child_window(title="Save All", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Cut'    (L308, T161, R330, B183)
+   |    |    | ['Button45', 'Cut', 'CutButton']
+   |    |    | child_window(title="Cut", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Copy'    (L330, T161, R352, B183)
+   |    |    | ['Copy', 'Button46', 'CopyButton']
+   |    |    | child_window(title="Copy", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Paste'    (L352, T161, R374, B183)
+   |    |    | ['Button47', 'Paste', 'PasteButton']
+   |    |    | child_window(title="Paste", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Undo'    (L374, T161, R396, B183)
+   |    |    | ['Button48', 'Undo', 'UndoButton']
+   |    |    | child_window(title="Undo", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Redo'    (L396, T161, R418, B183)
+   |    |    | ['Redo', 'Button49', 'RedoButton']
+   |    |    | child_window(title="Redo", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Print'    (L418, T161, R440, B183)
+   |    |    | ['Button50', 'Print', 'PrintButton']
+   |    |    | child_window(title="Print", control_type="Button")
+   |    |    | 
+   |    |    | MenuItem - 'Customize...'    (L440, T161, R450, B183)
+   |    |    | ['MenuItem29', 'Customize...MenuItem5', 'Customize...5']
+   |    |    | child_window(title="Customize...", control_type="MenuItem")
+   |    | 
+   |    | Pane - 'Menu Bar'    (L112, T135, R1536, B159)
+   |    | ['Pane25', 'Menu Bar', 'Menu BarPane']
+   |    | child_window(title="Menu Bar", auto_id="59398", control_type="Pane")
+   |    |    | 
+   |    |    | MenuItem - 'Edit'    (L148, T137, R183, B157)
+   |    |    | ['MenuItem30', 'Edit', 'EditMenuItem']
+   |    |    | child_window(title="Edit", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'View'    (L183, T137, R223, B157)
+   |    |    | ['ViewMenuItem', 'MenuItem31', 'View']
+   |    |    | child_window(title="View", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Tools'    (L223, T137, R266, B157)
+   |    |    | ['Tools2', 'MenuItem32', 'ToolsMenuItem']
+   |    |    | child_window(title="Tools", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - 'Help'    (L266, T137, R306, B157)
+   |    |    | ['MenuItem33', 'HelpMenuItem', 'Help']
+   |    |    | child_window(title="Help", control_type="MenuItem")
+   | 
+   | Pane - 'Saves all modified documents and the project.'    (L112, T924, R1536, B945)
+   | ['DatabaseSpy Enterprise Edition v2025 rel. 2 (x64)   Connected to Altova LicenseServer at qa-ls-ubuntu   ©1998-2025 Altova GmbH', 'DatabaseSpy Enterprise Edition v2025 rel. 2 (x64)   Connected to Altova LicenseServer at qa-ls-ubuntu   ©1998-2025 Altova GmbHPane', 'Pane26']
+   | child_window(title="Saves all modified documents and the project.", auto_id="59393", control_type="Pane")
+   | 
+   | Pane - ''    (L112, T640, R412, B644)
+   | ['Pane27']
+   | child_window(auto_id="1", control_type="Pane")
+   | 
+   | TitleBar - ''    (L128, T107, R1536, B135)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L112, T112, R134, B134)
+   |    | ['SystemMenu', 'System', 'Menu3', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L112, T112, R134, B134)
+   |    |    | ['MenuItem34', 'SystemMenuItem', 'System2']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L1397, T105, R1444, B135)
+   |    | ['Button51', 'MinimizeButton', 'Minimize']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Maximize'    (L1444, T105, R1490, B135)
+   |    | ['Button52', 'MaximizeButton', 'Maximize']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L1490, T105, R1537, B135)
+   |    | ['Button53', 'Close', 'CloseButton']
+   |    | child_window(title="Close", control_type="Button")

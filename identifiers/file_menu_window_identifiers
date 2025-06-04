@@ -1,0 +1,89 @@
+Control Identifiers:
+
+Menu - 'File'    (L115, T156, R428, B423)
+['File', 'Menu', 'FileMenu']
+child_window(title="File", control_type="Menu")
+   | 
+   | Toolbar - ''    (L116, T157, R424, B419)
+   | ['ToolbarNew', 'Toolbar', 'ToolbarSave\tStrg+S', 'ToolbarSave All\tStrg+Umschalt+S', 'ToolbarOpen', 'ToolbarSave As...', 'ToolbarRecent Projects', 'ToolbarExit', 'ToolbarRecent Files', 'ToolbarSave Project As...']
+   | child_window(auto_id="1", control_type="ToolBar")
+   |    | 
+   |    | MenuItem - 'Create a Database Connection...	Strg+Q'    (L116, T158, R424, B180)
+   |    | ['Create a Database Connection...\tStrg+Q', 'Create a Database Connection...\tStrg+QMenuItem', 'MenuItem', 'MenuItem0', 'MenuItem1', 'Create a Database Connection...\tStrg+Q0', 'Create a Database Connection...\tStrg+Q1', 'Create a Database Connection...\tStrg+QMenuItem0', 'Create a Database Connection...\tStrg+QMenuItem1']
+   |    | child_window(title="Create a Database Connection...	Strg+Q", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'New'    (L116, T188, R424, B210)
+   |    | ['NewMenuItem', 'New', 'MenuItem2', 'NewMenuItem0', 'NewMenuItem1', 'New0', 'New1']
+   |    | child_window(title="New", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Open'    (L116, T210, R424, B232)
+   |    | ['Open', 'MenuItem3', 'OpenMenuItem', 'Open0', 'Open1', 'OpenMenuItem0', 'OpenMenuItem1']
+   |    | child_window(title="Open", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save	Strg+S'    (L116, T240, R424, B262)
+   |    | ['Save\tStrg+S', 'Save\tStrg+SMenuItem', 'MenuItem4', 'Save\tStrg+S0', 'Save\tStrg+S1', 'Save\tStrg+SMenuItem0', 'Save\tStrg+SMenuItem1']
+   |    | child_window(title="Save	Strg+S", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save As...'    (L116, T262, R424, B284)
+   |    | ['Save As...MenuItem', 'Save As...', 'MenuItem5', 'Save As...MenuItem0', 'Save As...MenuItem1', 'Save As...0', 'Save As...1']
+   |    | child_window(title="Save As...", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save Project As...'    (L116, T284, R424, B306)
+   |    | ['Save Project As...MenuItem', 'Save Project As...', 'MenuItem6', 'Save Project As...MenuItem0', 'Save Project As...MenuItem1', 'Save Project As...0', 'Save Project As...1']
+   |    | child_window(title="Save Project As...", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Save All	Strg+Umschalt+S'    (L116, T314, R424, B336)
+   |    | ['Save All\tStrg+Umschalt+SMenuItem', 'Save All\tStrg+Umschalt+S', 'MenuItem7', 'Save All\tStrg+Umschalt+SMenuItem0', 'Save All\tStrg+Umschalt+SMenuItem1', 'Save All\tStrg+Umschalt+S0', 'Save All\tStrg+Umschalt+S1']
+   |    | child_window(title="Save All	Strg+Umschalt+S", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Recent Files'    (L116, T344, R424, B366)
+   |    | ['Recent FilesMenuItem', 'Recent Files', 'MenuItem8', 'Recent FilesMenuItem0', 'Recent FilesMenuItem1', 'Recent Files0', 'Recent Files1']
+   |    | child_window(title="Recent Files", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Recent Projects'    (L116, T366, R424, B388)
+   |    | ['Recent ProjectsMenuItem', 'Recent Projects', 'MenuItem9', 'Recent ProjectsMenuItem0', 'Recent ProjectsMenuItem1', 'Recent Projects0', 'Recent Projects1']
+   |    | child_window(title="Recent Projects", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Exit'    (L116, T396, R424, B418)
+   |    | ['ExitMenuItem', 'Exit', 'MenuItem10', 'ExitMenuItem0', 'ExitMenuItem1', 'Exit0', 'Exit1']
+   |    | child_window(title="Exit", control_type="MenuItem")
+   | 
+   | MenuItem - 'Create a Database Connection...	Strg+Q'    (L0, T0, R0, B0)
+   | ['Create a Database Connection...\tStrg+Q2', 'Create a Database Connection...\tStrg+QMenuItem2', 'MenuItem11']
+   | child_window(title="Create a Database Connection...	Strg+Q", control_type="MenuItem")
+   | 
+   | MenuItem - 'New'    (L0, T0, R0, B0)
+   | ['NewMenuItem2', 'New2', 'MenuItem12']
+   | child_window(title="New", control_type="MenuItem")
+   | 
+   | MenuItem - 'Open'    (L0, T0, R0, B0)
+   | ['Open2', 'MenuItem13', 'OpenMenuItem2']
+   | child_window(title="Open", control_type="MenuItem")
+   | 
+   | MenuItem - 'Save	Strg+S'    (L0, T0, R0, B0)
+   | ['Save\tStrg+S2', 'Save\tStrg+SMenuItem2', 'MenuItem14']
+   | child_window(title="Save	Strg+S", control_type="MenuItem")
+   | 
+   | MenuItem - 'Save As...'    (L0, T0, R0, B0)
+   | ['Save As...MenuItem2', 'Save As...2', 'MenuItem15']
+   | child_window(title="Save As...", control_type="MenuItem")
+   | 
+   | MenuItem - 'Save Project As...'    (L0, T0, R0, B0)
+   | ['Save Project As...MenuItem2', 'Save Project As...2', 'MenuItem16']
+   | child_window(title="Save Project As...", control_type="MenuItem")
+   | 
+   | MenuItem - 'Save All	Strg+Umschalt+S'    (L0, T0, R0, B0)
+   | ['Save All\tStrg+Umschalt+SMenuItem2', 'Save All\tStrg+Umschalt+S2', 'MenuItem17']
+   | child_window(title="Save All	Strg+Umschalt+S", control_type="MenuItem")
+   | 
+   | MenuItem - 'Recent Files'    (L0, T0, R0, B0)
+   | ['Recent FilesMenuItem2', 'Recent Files2', 'MenuItem18']
+   | child_window(title="Recent Files", control_type="MenuItem")
+   | 
+   | MenuItem - 'Recent Projects'    (L0, T0, R0, B0)
+   | ['Recent ProjectsMenuItem2', 'Recent Projects2', 'MenuItem19']
+   | child_window(title="Recent Projects", control_type="MenuItem")
+   | 
+   | MenuItem - 'Exit'    (L0, T0, R0, B0)
+   | ['ExitMenuItem2', 'Exit2', 'MenuItem20']
+   | child_window(title="Exit", control_type="MenuItem")

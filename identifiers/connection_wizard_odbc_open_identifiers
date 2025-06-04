@@ -1,0 +1,119 @@
+Control Identifiers:
+
+Dialog - 'Add a Data Source'    (L523, T260, R1126, B827)
+['Dialog', 'Add a Data SourceDialog', 'Add a Data Source']
+child_window(title="Add a Data Source", control_type="Window")
+   | 
+   | GroupBox - 'Static'    (L647, T302, R1108, B777)
+   | ['GroupBox', 'StaticGroupBox', 'Static', 'Static0', 'Static1', 'GroupBox0', 'GroupBox1']
+   | child_window(title="Static", auto_id="1616", control_type="Group")
+   | 
+   | Static - 'ODBC Connections'    (L660, T315, R1083, B336)
+   | ['ODBC ConnectionsStatic', 'ODBC Connections', 'Static2', 'ODBC Connections0', 'ODBC Connections1']
+   | child_window(title="ODBC Connections", auto_id="1620", control_type="Text")
+   | 
+   | RadioButton - 'Build a connection string'    (L944, T354, R1084, B370)
+   | ['RadioButton', 'Build a connection string', 'Build a connection stringRadioButton', 'RadioButton0', 'RadioButton1']
+   | child_window(title="Build a connection string", auto_id="1318", control_type="RadioButton")
+   | 
+   | RadioButton - 'System DSN'    (L672, T354, R756, B370)
+   | ['RadioButton2', 'System DSN', 'System DSNRadioButton']
+   | child_window(title="System DSN", auto_id="1315", control_type="RadioButton")
+   | 
+   | RadioButton - 'User DSN'    (L672, T377, R744, B393)
+   | ['RadioButton3', 'User DSNRadioButton', 'User DSN']
+   | child_window(title="User DSN", auto_id="1316", control_type="RadioButton")
+   | 
+   | RadioButton - 'File DSN'    (L672, T400, R738, B416)
+   | ['RadioButton4', 'File DSNRadioButton', 'File DSN']
+   | child_window(title="File DSN", auto_id="1317", control_type="RadioButton")
+   | 
+   | ComboBox - ''    (L749, T395, R1085, B417)
+   | ['ComboBox', 'ODBC ConnectionsComboBox']
+   | child_window(auto_id="1314", control_type="ComboBox")
+   |    | 
+   |    | Static - ''    (L3, T3, R316, B19)
+   |    | ['Static3']
+   |    | 
+   |    | Button - 'Open'    (L1069, T396, R1084, B416)
+   |    | ['Open', 'Button', 'OpenButton', 'Button0', 'Button1']
+   |    | child_window(title="Open", auto_id="DropDown", control_type="Button")
+   | 
+   | GroupBox - ''    (L662, T338, R1096, B429)
+   | ['GroupBox2', 'ODBC ConnectionsGroupBox']
+   | child_window(auto_id="1359", control_type="Group")
+   | 
+   | Button - 'Build ...'    (L662, T439, R737, B462)
+   | ['Build ...Button', 'Build ...', 'Button2']
+   | child_window(title="Build ...", auto_id="1216", control_type="Button")
+   | 
+   | Edit - ''    (L662, T470, R1096, B764)
+   | ['ODBC ConnectionsEdit', 'Edit']
+   | child_window(auto_id="1286", control_type="Edit")
+   |    | 
+   |    | ScrollBar - 'Vertical'    (L1077, T472, R1094, B762)
+   |    | ['ScrollBar', 'Vertical', 'VerticalScrollBar']
+   |    | child_window(title="Vertical", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    | 
+   |    |    | Button - 'Line up'    (L1077, T472, R1094, B489)
+   |    |    | ['Line up', 'Line upButton', 'Button3']
+   |    |    | child_window(title="Line up", auto_id="UpButton", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Line down'    (L1077, T745, R1094, B762)
+   |    |    | ['Line downButton', 'Line down', 'Button4']
+   |    |    | child_window(title="Line down", auto_id="DownButton", control_type="Button")
+   | 
+   | Button - 'Connect'    (L935, T786, R1010, B809)
+   | ['Button5', 'ConnectButton', 'Connect']
+   | child_window(title="Connect", auto_id="1613", control_type="Button")
+   | 
+   | Button - 'Close'    (L1022, T786, R1097, B809)
+   | ['CloseButton', 'Button6', 'Close', 'CloseButton0', 'CloseButton1', 'Close0', 'Close1']
+   | child_window(title="Close", auto_id="2", control_type="Button")
+   | 
+   | Toolbar - ''    (L542, T302, R641, B789)
+   | ['ToolbarPostgreSQL Connections', 'Toolbar', 'ToolbarGlobal Resources', 'ToolbarODBC Connections', 'ToolbarADO.NET Connections', 'ToolbarJDBC Connections', 'ToolbarADO Connections']
+   | child_window(auto_id="1163", control_type="ToolBar")
+   |    | 
+   |    | Button - 'Connection Wizard'    (L542, T302, R641, B371)
+   |    | ['Button7', 'Connection Wizard', 'Connection WizardButton']
+   |    | child_window(title="Connection Wizard", control_type="Button")
+   |    | 
+   |    | Button - 'ADO Connections'    (L542, T371, R641, B440)
+   |    | ['ADO Connections', 'Button8', 'ADO ConnectionsButton']
+   |    | child_window(title="ADO Connections", control_type="Button")
+   |    | 
+   |    | Button - 'ODBC Connections'    (L542, T440, R641, B509)
+   |    | ['ODBC ConnectionsButton', 'Button9', 'ODBC Connections2']
+   |    | child_window(title="ODBC Connections", control_type="Button")
+   |    | 
+   |    | Button - 'JDBC Connections'    (L542, T509, R641, B578)
+   |    | ['Button10', 'JDBC Connections', 'JDBC ConnectionsButton']
+   |    | child_window(title="JDBC Connections", control_type="Button")
+   |    | 
+   |    | Button - 'ADO.NET Connections'    (L542, T578, R641, B647)
+   |    | ['ADO.NET ConnectionsButton', 'Button11', 'ADO.NET Connections']
+   |    | child_window(title="ADO.NET Connections", control_type="Button")
+   |    | 
+   |    | Button - 'Global Resources'    (L542, T647, R641, B716)
+   |    | ['Global ResourcesButton', 'Button12', 'Global Resources']
+   |    | child_window(title="Global Resources", control_type="Button")
+   |    | 
+   |    | Button - 'PostgreSQL Connections'    (L542, T716, R641, B785)
+   |    | ['PostgreSQL ConnectionsButton', 'Button13', 'PostgreSQL Connections']
+   |    | child_window(title="PostgreSQL Connections", control_type="Button")
+   | 
+   | TitleBar - ''    (L547, T263, R1118, B291)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L531, T268, R553, B290)
+   |    | ['System', 'SystemMenu', 'Menu', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L531, T268, R553, B290)
+   |    |    | ['System2', 'SystemMenuItem', 'MenuItem']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Close'    (L1085, T261, R1119, B291)
+   |    | ['CloseButton2', 'Button14', 'Close2']
+   |    | child_window(title="Close", control_type="Button")

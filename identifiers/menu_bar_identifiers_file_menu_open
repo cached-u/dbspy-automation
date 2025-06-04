@@ -1,0 +1,21 @@
+Control Identifiers:
+
+Pane - 'Menu Bar'    (L112, T135, R1536, B159)
+['Menu BarPane', 'Menu Bar', 'Pane']
+child_window(title="Menu Bar", auto_id="59398", control_type="Pane")
+   | 
+   | MenuItem - 'Edit'    (L148, T137, R183, B157)
+   | ['Edit', 'EditMenuItem', 'MenuItem', 'MenuItem0', 'MenuItem1']
+   | child_window(title="Edit", control_type="MenuItem")
+   | 
+   | MenuItem - 'View'    (L183, T137, R223, B157)
+   | ['View', 'ViewMenuItem', 'MenuItem2']
+   | child_window(title="View", control_type="MenuItem")
+   | 
+   | MenuItem - 'Tools'    (L223, T137, R266, B157)
+   | ['ToolsMenuItem', 'MenuItem3', 'Tools']
+   | child_window(title="Tools", control_type="MenuItem")
+   | 
+   | MenuItem - 'Help'    (L266, T137, R306, B157)
+   | ['HelpMenuItem', 'MenuItem4', 'Help']
+   | child_window(title="Help", control_type="MenuItem")

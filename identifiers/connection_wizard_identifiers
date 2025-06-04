@@ -1,0 +1,96 @@
+Control Identifiers:
+
+Dialog - 'Add a Data Source'    (L523, T260, R1126, B827)
+['Add a Data Source', 'Add a Data SourceDialog', 'Dialog']
+child_window(title="Add a Data Source", control_type="Window")
+   | 
+   | GroupBox - 'Static'    (L647, T302, R1108, B777)
+   | ['GroupBox', 'Static', 'StaticGroupBox', 'Static0', 'Static1']
+   | child_window(title="Static", auto_id="1616", control_type="Group")
+   | 
+   | Static - 'Connection Wizard'    (L660, T315, R1083, B336)
+   | ['Connection Wizard', 'Static2', 'Connection WizardStatic', 'Connection Wizard0', 'Connection Wizard1']
+   | child_window(title="Connection Wizard", auto_id="1620", control_type="Text")
+   | 
+   | Static - 'Please select a source database and click on next.\n\nIf the database vendor that you wish to work with is not listed below, then please create a connection using either ADO or ODBC directly. '    (L663, T354, R1088, B411)
+   | ['Please select a source database and click on next.\n\nIf the database vendor that you wish to work with is not listed below, then please create a connection using either ADO or ODBC directly. Static', 'Please select a source database and click on next.\n\nIf the database vendor that you wish to work with is not listed below, then please create a connection using either ADO or ODBC directly. ', 'Static3']
+   | child_window(title="Please select a source database and click on next.\n\nIf the database vendor that you wish to work with is not listed below, then please create a connection using either ADO or ODBC directly. ", auto_id="1424", control_type="Text")
+   | 
+   | Static - 'Sort by:'    (L915, T416, R960, B442)
+   | ['Static4', 'Sort by:Static', 'Sort by:', 'Sort by:0', 'Sort by:1', 'Sort by:Static0', 'Sort by:Static1']
+   | child_window(title="Sort by:", auto_id="1422", control_type="Text")
+   | 
+   | ComboBox - 'Sort by:'    (L968, T413, R1088, B434)
+   | ['ComboBox', 'Sort by:ComboBox', 'Sort by:2']
+   | child_window(title="Sort by:", auto_id="1423", control_type="ComboBox")
+   |    | 
+   |    | Static - 'Sort by:'    (L3, T3, R100, B18)
+   |    | ['Static5', 'Sort by:Static2', 'Sort by:3']
+   |    | child_window(title="Sort by:", control_type="Text")
+   |    | 
+   |    | Button - 'Open'    (L1072, T414, R1087, B433)
+   |    | ['Button', 'OpenButton', 'Open', 'Button0', 'Button1']
+   |    | child_window(title="Open", auto_id="DropDown", control_type="Button")
+   | 
+   | Pane - 'Placeholder'    (L666, T442, R1091, B733)
+   | ['PlaceholderPane', 'Pane', 'Placeholder']
+   | child_window(title="Placeholder", auto_id="65535", control_type="Pane")
+   | 
+   | CheckBox - 'Skip the configuration step for wizard'    (L666, T743, R864, B759)
+   | ['CheckBox', 'Skip the configuration step for wizard', 'Skip the configuration step for wizardCheckBox']
+   | child_window(title="Skip the configuration step for wizard", auto_id="1209", control_type="CheckBox")
+   | 
+   | Button - 'Next >'    (L935, T786, R1010, B809)
+   | ['Next >Button', 'Button2', 'Next >']
+   | child_window(title="Next >", auto_id="1613", control_type="Button")
+   | 
+   | Button - 'Close'    (L1022, T786, R1097, B809)
+   | ['Close', 'Button3', 'CloseButton', 'Close0', 'Close1', 'CloseButton0', 'CloseButton1']
+   | child_window(title="Close", auto_id="2", control_type="Button")
+   | 
+   | Toolbar - ''    (L542, T302, R641, B789)
+   | ['ToolbarADO Connections', 'ToolbarPostgreSQL Connections', 'ToolbarADO.NET Connections', 'Toolbar', 'ToolbarODBC Connections', 'ToolbarGlobal Resources', 'ToolbarJDBC Connections']
+   | child_window(auto_id="1163", control_type="ToolBar")
+   |    | 
+   |    | Button - 'Connection Wizard'    (L542, T302, R641, B371)
+   |    | ['Button4', 'Connection WizardButton', 'Connection Wizard2']
+   |    | child_window(title="Connection Wizard", control_type="Button")
+   |    | 
+   |    | Button - 'ADO Connections'    (L542, T371, R641, B440)
+   |    | ['Button5', 'ADO Connections', 'ADO ConnectionsButton']
+   |    | child_window(title="ADO Connections", control_type="Button")
+   |    | 
+   |    | Button - 'ODBC Connections'    (L542, T440, R641, B509)
+   |    | ['Button6', 'ODBC ConnectionsButton', 'ODBC Connections']
+   |    | child_window(title="ODBC Connections", control_type="Button")
+   |    | 
+   |    | Button - 'JDBC Connections'    (L542, T509, R641, B578)
+   |    | ['Button7', 'JDBC Connections', 'JDBC ConnectionsButton']
+   |    | child_window(title="JDBC Connections", control_type="Button")
+   |    | 
+   |    | Button - 'ADO.NET Connections'    (L542, T578, R641, B647)
+   |    | ['ADO.NET Connections', 'Button8', 'ADO.NET ConnectionsButton']
+   |    | child_window(title="ADO.NET Connections", control_type="Button")
+   |    | 
+   |    | Button - 'Global Resources'    (L542, T647, R641, B716)
+   |    | ['Button9', 'Global Resources', 'Global ResourcesButton']
+   |    | child_window(title="Global Resources", control_type="Button")
+   |    | 
+   |    | Button - 'PostgreSQL Connections'    (L542, T716, R641, B785)
+   |    | ['PostgreSQL Connections', 'Button10', 'PostgreSQL ConnectionsButton']
+   |    | child_window(title="PostgreSQL Connections", control_type="Button")
+   | 
+   | TitleBar - ''    (L547, T263, R1118, B291)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L531, T268, R553, B290)
+   |    | ['System', 'Menu', 'SystemMenu', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L531, T268, R553, B290)
+   |    |    | ['SystemMenuItem', 'MenuItem', 'System2']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Close'    (L1085, T261, R1119, B291)
+   |    | ['Close2', 'Button11', 'CloseButton2']
+   |    | child_window(title="Close", control_type="Button")

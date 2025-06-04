@@ -1,0 +1,24 @@
+# Conteinerized databases
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0                     # Official MySQL 8.0 image
+    container_name: mysql_local
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass      # Root user password
+      MYSQL_DATABASE: testdb             # A default database to create
+      MYSQL_USER: testuser               # A non-root user
+      MYSQL_PASSWORD: testpass           # Password for `testuser`
+    ports:
+      - "3306:3306"                      # Expose port 3306 on host → 3306 in container
+    volumes:
+      - mysql_data:/var/lib/mysql        # Persist data between restarts
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_data:

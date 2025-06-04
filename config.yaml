@@ -1,0 +1,84 @@
+# DB credentials, exe_path, timeouts
+
+# --- Global / application settings ---
+global:
+  exe_path: "C:\\Program Files\\Altova\\DatabaseSpy2025\\DatabaseSpy.exe"
+  log_level: "DEBUG"
+  connect_timeout: 5
+  launch_timeout: 15
+  visible_timeout: 5
+
+# --- Database connection defaults ---
+databases:
+
+  MySQL:
+    host: "localhost"
+    port: 3306
+    user: "testuser"
+    password: "testpass"
+    driver: "DRIVER"
+    database: "testdb"
+
+  # PostgreSQL:
+  #   host: "dbserver.local"
+  #   port: 5432
+  #   user: "dbuser"
+  #   password: "secret"
+  #   # future fields:
+  #   schema: "public"
+  #   sslmode: "require"
+  #   database: "testdb"
+
+  # SQLServer:
+  #   host: "sql.local"
+  #   port: 1433
+  #   user: "sa"
+  #   password: "Strong!Pass"
+  #   driver: "ODBC Driver 17 for SQL Server"
+  #   database: "testdb"
+
+# --- Container orchestration settings (for local spin-up) ---
+containers:
+  PostgreSQL:
+    image: "postgres:13"
+    env:
+      POSTGRES_USER: "dbuser"
+      POSTGRES_PASSWORD: "secret"
+      POSTGRES_DB: "postgres"
+    ports:
+      - "5432:5432"
+  MySQL:
+    image: "mysql:8"
+    env:
+      MYSQL_ROOT_PASSWORD: "rootpass"
+      MYSQL_DATABASE: "testdb"
+      MYSQL_USER: "myuser"
+      MYSQL_PASSWORD: "mypass"
+    ports:
+      - "3306:3306"
+  SQLServer:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    env:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Strong!Pass"
+    ports:
+      - "1433:1433"
+
+driver_maps:
+  odbc:
+    PostgreSQL: "PostgreSQL Unicode"
+    MySQL:      "MySQL ODBC 8.0 Unicode"
+    SQLServer:  "ODBC Driver 17 for SQL Server"
+    MariaDB:    "MariaDB ODBC 3.1 Driver"
+
+  jdbc_subprotocol:
+    PostgreSQL: "postgresql"
+    MySQL:      "mysql"
+    SQLServer:  "sqlserver"
+    MariaDB:    "mariadb"
+
+  ado_provider:
+    SQLServer:  "SQLOLEDB"
+    PostgreSQL: "PostgreSQL OLEDB Provider"
+    MySQL:      "MySQL Provider"
+    MariaDB:    "MariaDB Provider"
