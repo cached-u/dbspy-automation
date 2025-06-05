@@ -20,12 +20,11 @@ def launch_database_spy():
     """
     exe_path = Config.get_global("exe_path")
     launch_timeout = Config.get_global("launch_timeout", 15)
-    visible_timeout = Config.get_global("visible_timeout", 5)
     try:
         app = Application(backend="uia").start(
             exe_path, timeout=launch_timeout)
         main_window = app.window(title_re=Constants.APP_TITLE_RE)
-        main_window.wait("visible", timeout=visible_timeout)
+        main_window.wait("visible", timeout=launch_timeout)
         return app, main_window
     except Exception as e:
         print(e)
@@ -227,7 +226,7 @@ def connect_to_database(
         db_version=db_version
     )
 
-    # Select "build a connection string" and paste generated connection string
+    # Select "build a connection string", paste generated connection string and connect
     connection_text_field = connection_wizard.child_window(
         auto_id="1286", control_type=ControlTypes.EDIT
     )
