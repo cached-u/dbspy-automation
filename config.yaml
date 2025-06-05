@@ -11,12 +11,11 @@ global:
 # --- Database connection defaults ---
 databases:
   MySQL:
-    host: "localhost"
-    port: 3306
-    user: "testuser"
-    password: "testpass"
-    driver: "DRIVER"
-    database: "testdb"
+    host: "test-db.vie.altova.com"
+    port: 3320
+    user: "altova_user"
+    password: "user"
+    database: "DBDiff"
 
   # PostgreSQL:
   #   host: "dbserver.local"
@@ -67,7 +66,7 @@ containers:
 driver_maps:
   odbc:
     PostgreSQL: "PostgreSQL Unicode"
-    MySQL: "MySQL ODBC 8.0 Unicode"
+    MySQL: "MySQL ODBC 9.3 Unicode"
     SQLServer: "ODBC Driver 17 for SQL Server"
     MariaDB: "MariaDB ODBC 3.1 Driver"
 
