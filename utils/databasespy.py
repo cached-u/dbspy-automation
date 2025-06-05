@@ -1,7 +1,7 @@
 # utils/databasespy.py
 
 from pywinauto.application import Application
-
+from utils import connection_factory as ConnectionFactory
 from utils import common_classes as Constants
 from utils.config import Config
 
@@ -22,7 +22,8 @@ def launch_database_spy():
     launch_timeout = Config.get_global("launch_timeout", 15)
     visible_timeout = Config.get_global("visible_timeout", 5)
     try:
-        app = Application(backend="uia").start(exe_path, timeout=launch_timeout)
+        app = Application(backend="uia").start(
+            exe_path, timeout=launch_timeout)
         main_window = app.window(title_re=Constants.APP_TITLE_RE)
         main_window.wait("visible", timeout=visible_timeout)
         return app, main_window
@@ -195,9 +196,9 @@ def open_connection_wizard():
 
 
 def connect_to_database(
-    connection_type = "TEST",
-    db_name = "TEST",
-    db_version = "TEST"
+    connection_type="ODBC",
+    db_name="MySQL",
+    db_version=""
 ):
     """
     Ensures a DatabaseSpy instance is running (attaches if already open,
@@ -220,7 +221,7 @@ def connect_to_database(
     selected_connection_window.click_input()
 
     # Generate connection string given connection_type, db_name and db_version
-    connection_string = generate_connection_string(
+    connection_string = ConnectionFactory.generate_connection_string(
         connection_type=connection_type,
         db_name=db_name,
         db_version=db_version
@@ -240,15 +241,15 @@ def connect_to_database(
     # Verify success and eventually throw error
 
 
-def generate_connection_string(connection_type, db_name, db_version):
-    """
-    Generates a connection string given type (ODBC, JDBC ecc...), name (MariaDB, PostgreSQL ecc..) and version
-    """
-    try:
-        print('connection string generation')
-        # connection_factory
-        default_connection_string = "TEST CONNECTION STRING"
-        return default_connection_string
+# def generate_connection_string(connection_type, db_name, db_version):
+#     """
+#     Generates a connection string given type (ODBC, JDBC ecc...), name (MariaDB, PostgreSQL ecc..) and version
+#     """
+#     try:
+#         print('connection string generation')
+#         # connection_factory
+#         default_connection_string = "TEST CONNECTION STRING"
+#         return default_connection_string
 
-    except Exception as e:
-        raise e
+#     except Exception as e:
+#         raise e
