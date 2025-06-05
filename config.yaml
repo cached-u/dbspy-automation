@@ -10,7 +10,6 @@ global:
 
 # --- Database connection defaults ---
 databases:
-
   MySQL:
     host: "localhost"
     port: 3306
@@ -37,7 +36,7 @@ databases:
   #   driver: "ODBC Driver 17 for SQL Server"
   #   database: "testdb"
 
-# --- Container orchestration settings (for local spin-up) ---
+# --- Container orchestration settings ---
 containers:
   PostgreSQL:
     image: "postgres:13"
@@ -64,21 +63,22 @@ containers:
     ports:
       - "1433:1433"
 
+# --- map used to create the connection strings ---
 driver_maps:
   odbc:
     PostgreSQL: "PostgreSQL Unicode"
-    MySQL:      "MySQL ODBC 8.0 Unicode"
-    SQLServer:  "ODBC Driver 17 for SQL Server"
-    MariaDB:    "MariaDB ODBC 3.1 Driver"
+    MySQL: "MySQL ODBC 8.0 Unicode"
+    SQLServer: "ODBC Driver 17 for SQL Server"
+    MariaDB: "MariaDB ODBC 3.1 Driver"
 
   jdbc_subprotocol:
     PostgreSQL: "postgresql"
-    MySQL:      "mysql"
-    SQLServer:  "sqlserver"
-    MariaDB:    "mariadb"
+    MySQL: "mysql"
+    SQLServer: "sqlserver"
+    MariaDB: "mariadb"
 
   ado_provider:
-    SQLServer:  "SQLOLEDB"
+    SQLServer: "SQLOLEDB"
     PostgreSQL: "PostgreSQL OLEDB Provider"
-    MySQL:      "MySQL Provider"
-    MariaDB:    "MariaDB Provider"
+    MySQL: "MySQL Provider"
+    MariaDB: "MariaDB Provider"

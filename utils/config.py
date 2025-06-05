@@ -1,9 +1,6 @@
-# Loads config.yaml, environment vars
-
-# utils/config.py
-
 import yaml
 import os
+
 
 class Config:
     """
@@ -14,7 +11,8 @@ class Config:
     @classmethod
     def load(cls):
         if cls._data is None:
-            cfg_path = os.path.join(os.path.dirname(__file__), os.pardir, "config.yaml")
+            cfg_path = os.path.join(os.path.dirname(
+                __file__), os.pardir, "config.yaml")
             cfg_path = os.path.abspath(cfg_path)
             with open(cfg_path, "r", encoding="utf-8") as f:
                 cls._data = yaml.safe_load(f)
@@ -33,7 +31,7 @@ class Config:
     def get_global(cls, key: str, default=None):
         data = cls.load()
         return data.get("global", {}).get(key, default)
-    
+
     @classmethod
     def get_driver_map(cls) -> dict:
         data = cls.load()
