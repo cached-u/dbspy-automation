@@ -50,7 +50,7 @@ class ADOConnectionStringBuilder(ConnectionStringBuilder):
         provider_map = Config.get_ado_provider_map()
         provider = provider_map.get(db_name)
 
-        #This String should be standard for all ODBC connection
+        #This String should be standard for all ODBC connection but DatabaseSpy doesn't let you use drivers
         return (
             f"Provider={provider};"
             f"Data Source={host},{port};"
